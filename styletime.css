@@ -1,0 +1,37 @@
+.hours-table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.hours-table td, .hours-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.hours-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.hours-table tr:hover {
+  background-color: #ddd;
+}
+
+.hours-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.image-behind-text {
+
+  background-image: url('time1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px;
+}
+
+
